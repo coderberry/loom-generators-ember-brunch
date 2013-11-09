@@ -31,3 +31,7 @@ generate view index
 
 That's pretty much everything.
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cavneb/loom-generators-ember-brunch/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
