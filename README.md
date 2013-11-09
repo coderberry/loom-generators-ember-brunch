@@ -4,8 +4,6 @@ Ember Generators (Brunch)
 These are the generators used for Brunch, but you can include
 them into any project you want.
 
-They aren't done :)
-
 Installation
 ------------
 
@@ -32,8 +30,6 @@ generate index
 ```
 
 That's pretty much everything.
-
-
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cavneb/loom-generators-ember-brunch/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
