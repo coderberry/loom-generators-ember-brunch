@@ -19,6 +19,7 @@ Generator Examples
 
 ```sh
 generate component x-buttonset
+generate lib book
 generate controller users/mini-profile
 generate controller application type:array
 generate helper capitalize
@@ -27,6 +28,7 @@ generate model user name:string age:number
 generate route index
 generate template profile
 generate view index
+generate index
 ```
 
 That's pretty much everything.

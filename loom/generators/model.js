@@ -2,7 +2,7 @@ var parent = require('./default');
 
 var generator = module.exports = Object.create(parent);
 
-generator.present = function(name) {
+generator.present = function(name, params, env) {
   // skip all the stuff inbetween
   var fields = arguments[arguments.length - 2];
   var locals = parent.present(name);

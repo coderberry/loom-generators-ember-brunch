@@ -11,7 +11,7 @@ describe('model', function() {
         {name: 'age', type: 'number', comma: ''}
       ]
     };
-    var expected = render('app/models/model.js.hbs', locals);
+    var expected = render('app/models/model.coffee.hbs', locals);
     loom('-sq model user name:string age:number').out.should.equal(expected);
   });
 

@@ -1,0 +1,12 @@
+# this file is auto-generated
+
+require './config/routes'
+var App = require './app'
+App.Router.map(routes)
+{{#each helpers}}
+require '{{path}}'{{/each}}
+{{#each modules}}
+{{name}} = require '{{path}}'
+App.{{name}} = {{name}}{{/each}}
+
+module exports = App

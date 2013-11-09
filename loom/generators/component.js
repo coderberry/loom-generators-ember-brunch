@@ -11,7 +11,7 @@ generator.before = function(env) {
 };
 
 generator.templates = [
-  app+'/components/component.js.hbs',
+  app+'/components/component.coffee.hbs',
   app+'/templates/components/component.hbs.hbs'
 ];
 

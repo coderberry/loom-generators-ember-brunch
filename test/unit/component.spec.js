@@ -24,7 +24,7 @@ describe('component generator', function() {
 
     it('saves the component to the right place', function() {
       var path = generator.savePath(generator.templates[0], env);
-      path.should.equal('app/components/x-foo.js');
+      path.should.equal('app/components/x-foo.coffee');
     });
   });
 });

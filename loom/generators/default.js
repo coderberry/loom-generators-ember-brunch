@@ -29,7 +29,7 @@ generator.present = function(name) {
 
 generator.template = function(env) {
   var plural = inflector.pluralize(env.name);
-  return app+'/'+plural+'/'+env.name+'.js.hbs';
+  return app+'/'+plural+'/'+env.name+'.coffee.hbs';
 };
 
 function appendable(generatorName) {
