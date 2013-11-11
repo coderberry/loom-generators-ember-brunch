@@ -1,8 +1,6 @@
 attr = DS.attr
 
-{{objectName}} = DS.Model.extend
+module.exports = App.{{objectName}} = DS.Model.extend
 {{#each fields}}
   {{name}}: attr('{{type}}')
 {{/each}}
-
-module.exports = {{objectName}}
