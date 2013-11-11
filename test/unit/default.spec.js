@@ -4,15 +4,6 @@ var msg = require('loom/lib/message');
 
 describe('default generator', function() {
   describe('before', function() {
-    it('dasherizes the name of the resource and saves the original', function() {
-      var env = { args: ['foo_bar'], name: 'controller' };
-      generator.before(env);
-      env.should.eql({
-        args: ['foo-bar'],
-        name: 'controller',
-        rawName: 'foo_bar'
-      });
-    });
 
     it('requires a resource name', function() {
       var mock = sinon.mock(msg, 'error');

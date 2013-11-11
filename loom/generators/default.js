@@ -11,7 +11,6 @@ generator.before = function(env) {
     msg.error("You must specify a resource name, ie 'generate "+env.name+" user'");
   } else {
     env.rawName = env.args[0];
-    console.log(env);
     env.args[0] = inflector.underscore(env.args[0]);
   }
 };
